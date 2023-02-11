@@ -87,6 +87,5 @@ docker-compose up -d
 
 
 ## join support server
-
-https://discord.gg/9cAXP5j5Rc
+https://discord.gg/2XdwkeXmzw
 
