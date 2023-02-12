@@ -1,6 +1,6 @@
 <img width="150" height="150" align="right" style="float: right; margin: 0 10px 0 0;" alt="music_disc" src="https://i.imgur.com/JWSIlSt.png">
 
-# Music Disc 
+# GardiMusic 
 
 <a href="https://github.com/hmes98318/Music-Disc/releases"><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/hmes98318/Music-Disc?style=for-the-badge"></a> 
 <a href="https://discord.js.org/"><img src="https://img.shields.io/badge/Discord.JS-v14-blue?style=for-the-badge&logo=DISCORD" /></a> 
@@ -35,11 +35,11 @@ npm install
 [`.env`](./.env) 
 ```env
 TOKEN = "your_token"
-NAME = "Music Disc"
-PREFIX = "+"
-PLAYING = "+help | music"
+NAME = "GardiMusic"
+PREFIX = "g+"
+PLAYING = "g+help | GardiMusic"
 COLOR = "#FFFFFF"
-DEFAULT_VOLUME = 50
+DEFAULT_VOLUME = 93
 MAX_VOLUME = 100
 AUTO_LEAVE = true
 AUTO_LEAVE_COOLDOWN = 5000
@@ -62,14 +62,14 @@ npm run start
 ```yml
 version: '3.8'
 services:
-  music-disc:
+  gardi-music:
     image: hmes98318/music-disc:1.2.6
     container_name: music-disc
     restart: always
     environment:
       TOKEN: "your_token"
-      PREFIX: "+"
-      PLAYING: "+help | music"
+      PREFIX: "g+"
+      PLAYING: "g+help | gardimusic"
       COLOR: "#FFFFFF"
       DEFAULTVOLUME: 50
       MAXVOLUME: 100
