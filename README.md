@@ -22,7 +22,8 @@ Supports **YouTube**, **Spotify**, **SoundCloud** streams.
 ```
 git clone -b v1.2.6 https://github.com/hmes98318/Music-Disc.git
 ```
-or [**click here**](https://github.com/hmes98318/Music-Disc/releases) to download  
+or [**click here**](https://github.com/hmes98318/Music-Disc/releases) to download 
+and also this is credited to original creator of this code but i modifed the script
 
 
 ### Install the dependencies
@@ -63,13 +64,12 @@ npm run start
 version: '3.8'
 services:
   gardi-music:
-    image: hmes98318/music-disc:1.2.6
-    container_name: music-disc
+    container_name: gardi-music
     restart: always
     environment:
       TOKEN: "your_token"
       PREFIX: "g+"
-      PLAYING: "g+help | gardimusic"
+      PLAYING: "g+help | GardiMusic"
       COLOR: "#FFFFFF"
       DEFAULTVOLUME: 50
       MAXVOLUME: 100
