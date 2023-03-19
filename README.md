@@ -1,4 +1,4 @@
-<img width="150" height="150" align="right" style="float: right; margin: 0 10px 0 0;" alt="music_disc" src="https://i.imgur.com/JWSIlSt.png">
+<img width="150" height="150" align="right" style="float: right; margin: 0 10px 0 0;" alt="music_disc" src="https://cdn.discordapp.com/attachments/1082982687163306058/1086906431783051314/discord-avatar-512-CDL4F.png">
 
 # GardiMusic 
 
